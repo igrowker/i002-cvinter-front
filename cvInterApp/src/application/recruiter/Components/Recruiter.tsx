@@ -1,3 +1,4 @@
+import React from "react";
 import CandidateSearch from "./CandidateSearch";
 import SideBar from "./SideBar";
 
