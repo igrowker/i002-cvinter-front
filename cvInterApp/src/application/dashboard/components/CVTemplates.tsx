@@ -4,7 +4,6 @@ import { Outlet, useLocation } from "react-router-dom"
 // import Template4 from "./templates/Template4";
 import { useCvStore } from "../../zustand/store/CvStore";
 // import Template5 from "./templates/Template5";
-import './CVTemplates.css';
 import Template4 from "./templates/Template4";
 import { useRef } from 'react';
 import html2canvas from 'html2canvas';

@@ -18,6 +18,8 @@ import App from "../../App";
 import HowItWorks from "../pages/HowItWorks";
 import Contact from "../pages/Contact";
 import Show from "../dashboard/components/templates/Show";
+import CandidateSearch from "../recruiter/Components/CandidateSearch"
+import Recruiter from "../recruiter/Components/Recruiter"
 
 const router = createBrowserRouter([
   {
@@ -101,7 +103,20 @@ const router = createBrowserRouter([
       {
         path: "/upload-pdf",
         element: <Show />
+      },
+      {
+        path: "/CandidateSearch",
+        element: <CandidateSearch />
+
+      },
+
+      {
+        path: "/Recruiter",
+        element: <Recruiter />
+
       }
+
+      
     ]
   }
 
