@@ -17,6 +17,7 @@ import Upload from "../dashboard/components/views/Upload";
 import App from "../../App";
 import HowItWorks from "../pages/HowItWorks";
 import Contact from "../pages/Contact";
+import Recruiter from "../recruiter/Components/Recruiter"
 
 const router = createBrowserRouter([
   {
@@ -96,6 +97,10 @@ const router = createBrowserRouter([
       {
         path: "/Home",
         element: <Home />,
+      },
+      {
+        path: "/Recruiter",
+        element: <Recruiter />,
       },
     ]
   }
