@@ -1,6 +1,7 @@
 // import axios from "axios";
 import { LoginData, UserFormData } from "./types";
 
+
 export const registerUser = async (data: UserFormData) => {
     // const response = await axios.post('api/auth/register', data)
     // return response.data
