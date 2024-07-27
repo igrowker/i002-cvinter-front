@@ -7,12 +7,12 @@ const Recruiter = () => {
   return (
     <>
       <NavBar />
-      <div className="flex flex-col h-screen">
-        <div className="flex flex-grow">
-          <div className="hidden md:block md:w-1/4 lg:w-1/5">
+      <div className="flex flex-col h-full pt-4">
+        <div className="flex flex-grow overflow-hidden">
+          <div className="w-1/4 lg:w-1/5 h-full bg-gray-200">
             <SideBar />
           </div>
-          <div className="flex-grow">
+          <div className="flex-grow overflow-y-auto">
             <CandidateSearch />
           </div>
         </div>
